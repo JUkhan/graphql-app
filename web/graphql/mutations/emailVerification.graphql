@@ -1,0 +1,3 @@
+mutation EmailVarification($email: String!) {
+  changePasswordEmailVarification(email: $email)
+}

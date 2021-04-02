@@ -1,0 +1,52 @@
+{
+  "name": "graphql-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express-session": "^1.17.3",
+    "@types/ioredis": "^4.22.1",
+    "@types/nodemailer": "^6.4.1",
+    "apollo-server-express": "^2.21.2",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.13.1",
+    "connect-redis": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "graphql": "^15.5.0",
+    "ioredis": "^4.24.4",
+    "nodemailer": "^6.5.0",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.31",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-redis": "^0.0.16",
+    "@types/express": "^4.17.11",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.14.35",
+    "@types/uuid": "^8.3.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUkhan/graphql-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUkhan/graphql-app/issues"
+  },
+  "homepage": "https://github.com/JUkhan/graphql-app#readme"
+}
